@@ -1,0 +1,28 @@
+# Ideas
+
+- Alien comes into human girl's body and dates in NYC — shocked by the cruelty of it
+- Asian daughter gets everyone who loves her to hate her so when she dies, no one is hurt
+- Book concept 'Late to Life' — protagonist only became ensouled at 27, always a late bloomer
+- Bored teenage girl posts online as a joke and accidentally gets elected as a dictator with Kim Jong-il numbers
+- Build a personal Dashboard
+- Claude writing style prompting system — build a set of prompts that captures my voice
+- Digital Flower garden
+- Frankenstein's monster story — me trying to fix my mind, projecting it into a monstrous creation that can astroturf after continuous psychiatric and therapeutic interventions
+- Ideas New page
+- Philosophy profile — a detailed map of my beliefs, values, and intellectual influences
+- Ring idea
+- She gets a cure to erase herself from world memory — as a way to kill herself without causing pain
+- Someone has an AI-generated kid — kid doesn't know she's AI. Others don't either
+- Substack essay idea My Years of Convalescence
+- Surveillance state via housewives neighbourhood watch
+- Tarot themed birthday party
+- What if we used VC money to program God
+- A bookmark manager app — RSS feeds, newsletters, saves, all in one
+- Write a blog post: "things I used to believe"
+- Is it narcissism I suffer from? — https://x.com/jungianLaura/status/2036095788846080224
+- Taylor Swift song "Prophecy" — to listen to
+- "Ixnay" — clever phrase to know
+- Make a productivity app
+- Make money on Sticka
+- Off the cuff speaking challenge: speak on a random thing unprepared
+- Make a digital bouquet website — https://www.instagram.com/reel/DV9T3tGkxl-/

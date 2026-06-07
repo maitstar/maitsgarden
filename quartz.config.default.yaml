@@ -1,17 +1,18 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
-  pageTitleSuffix: ""
+  pageTitle: Mait's Garden 🌿
+  pageTitleSuffix: " · Maitreyi Menon"
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: maitsgarden.vercel.app
   ignorePatterns:
     - private
     - templates
     - .obsidian
+    - "*.canvas"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -196,8 +197,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        LinkedIn: https://linkedin.com/in/maitreyi-menon
+        Email: mailto:hello@maitreyi.garden
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
@@ -213,22 +214,8 @@ plugins:
     options: {}
     order: 50
   - source: github:quartz-community/note-properties
-    enabled: true
-    options:
-      includeAll: false
-      includedProperties:
-        - description
-        - tags
-        - aliases
-      excludedProperties: []
-      hidePropertiesView: false
-      delimiters: ---
-      language: yaml
+    enabled: false
     order: 5
-    layout:
-      position: beforeBody
-      priority: 15
-      display: all
   - source: github:quartz-community/unlisted-pages
     enabled: true
     options: {}
