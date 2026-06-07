@@ -1,0 +1,11 @@
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+/bin/bash: /Users/mait/Library/Mobile Documents/com~apple~CloudDocs/Mait's Files/Personal/Productivity/maitquartz/watch.sh: Operation not permitted
+[11:36:40] Syncing...
+fatal: could not read Username for 'https://github.com': Device not configured
+[11:36:41] ✅ Pushed → Vercel rebuilding...

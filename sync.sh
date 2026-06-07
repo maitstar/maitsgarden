@@ -1,22 +1,31 @@
 #!/bin/bash
-# sync.sh — Pull from Obsidian Zettels → push to GitHub → Vercel auto-deploys
+# sync.sh — Obsidian Zettels → GitHub → Vercel auto-deploys
 
 VAULT="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/03- Zettels"
-CONTENT="$(dirname "$0")/content"
+QUARTZ_DIR="$(cd "$(dirname "$0")" && pwd)"
+CONTENT="$QUARTZ_DIR/content"
+LOG="$QUARTZ_DIR/.sync.log"
 
-echo "🌿 Syncing from Obsidian..."
-rsync -av --delete \
+echo "[$(date '+%H:%M:%S')] Syncing..." | tee -a "$LOG"
+
+# 1. Pull Obsidian Zettels into content/
+rsync -a --delete \
   --exclude='.obsidian' \
   --exclude='.DS_Store' \
   --exclude='*.canvas' \
   "$VAULT/" "$CONTENT/" \
-  --filter='protect index.md'
+  --filter='protect index.md' 2>>"$LOG"
 
-echo ""
-echo "📦 Pushing to GitHub (Vercel will auto-deploy)..."
-cd "$(dirname "$0")"
-npx quartz sync --no-pull
+# 2. Check if anything changed
+cd "$QUARTZ_DIR"
+if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard content/)" ]; then
+  echo "[$(date '+%H:%M:%S')] No changes, skipping push." | tee -a "$LOG"
+  exit 0
+fi
 
-echo ""
-echo "✅ Done! Vercel will rebuild in ~1 minute."
-echo "   → https://maitsgarden.vercel.app"
+# 3. Commit & push
+git add content/
+git commit -m "sync: $(date '+%Y-%m-%d %H:%M')" --quiet
+git push origin HEAD --quiet 2>>"$LOG"
+
+echo "[$(date '+%H:%M:%S')] ✅ Pushed → Vercel rebuilding..." | tee -a "$LOG"
