@@ -1,7 +1,7 @@
 {
   "buildCommand": "npx quartz build",
   "outputDirectory": "public",
-  "installCommand": "npm install && npx quartz plugin install --from-config",
+  "installCommand": "npm install && rm -rf .quartz/plugins && npx quartz plugin install --from-config",
   "framework": null,
   "routes": [
     { "src": "/", "dest": "/index.html" },
