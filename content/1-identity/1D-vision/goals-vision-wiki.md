@@ -1,8 +1,8 @@
 ---
 title: Goals and Vision
 tags: [personal/goals]
-related: [[philosophy-and-identity]], [[routines-and-systems]], [[adhd-system]], [[open-loops]], [[career-principles]], [[values-operating-system]], [[Schema/index]]
-sources: [[RAW/apple-notes/DREAMS, LONG-TERM VISION & BUCKET LIST]], [[RAW/apple-notes/THE 2026 GOAL ACHIEVEMENT PROTOCOL]], [[RAW/apple-notes/Vision Setting and 5 Year Planning - Journing Prompts]], [[RAW/apple-notes/2026 prep]], [[Notion/My Vision]], [[Notion/Q1 2026 Review]]
+related: ["[[philosophy-and-identity]]", "[[routines-and-systems]]", "[[adhd-system]]", "[[open-loops]]", "[[career-principles]]", "[[values-operating-system]]", "[[Schema/index]]"]
+sources: ["[[RAW/apple-notes/DREAMS, LONG-TERM VISION & BUCKET LIST]]", "[[RAW/apple-notes/THE 2026 GOAL ACHIEVEMENT PROTOCOL]]", "[[RAW/apple-notes/Vision Setting and 5 Year Planning - Journing Prompts]]", "[[RAW/apple-notes/2026 prep]]", "[[Notion/My Vision]]", "[[Notion/Q1 2026 Review]]"]
 last_updated: 2026-04-12
 ---
 

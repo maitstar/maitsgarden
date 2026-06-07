@@ -1,8 +1,8 @@
 ---
 title: Philosophy and Identity
 tags: [personal/philosophy, personal/identity]
-related: [[mindset-and-mental-models]], [[relationships-and-dating]], [[goals-and-vision]], [[values-operating-system]], [[mait-isms]], [[Schema/index]], [[spirituality]]
-sources: [[RAW/apple-notes/BELIEF SYSTEMS, PERSONAL PHILOSOPHY & GROWTH]], [[RAW/apple-notes/Knowing Myself]], [[RAW/apple-notes/QUESTIONS, REFLECTIONS & PERSONAL INSIGHTS]], [[RAW/apple-notes/Debater Guide to Personal Growth]], [[Notion/My Vision]], [[Notion/Q1 2026 Review]], [[RAW/notion/Notion/Commonplace Book/Building Integrity.md]], [[RAW/notion/Notion/Commonplace Book/Understanding values Schwartz theory of basic values.md]]
+related: ["[[mindset-and-mental-models]]", "[[relationships-and-dating]]", "[[goals-and-vision]]", "[[values-operating-system]]", "[[mait-isms]]", "[[Schema/index]]", "[[spirituality]]"]
+sources: ["[[RAW/apple-notes/BELIEF SYSTEMS, PERSONAL PHILOSOPHY & GROWTH]]", "[[RAW/apple-notes/Knowing Myself]]", "[[RAW/apple-notes/QUESTIONS, REFLECTIONS & PERSONAL INSIGHTS]]", "[[RAW/apple-notes/Debater Guide to Personal Growth]]", "[[Notion/My Vision]]", "[[Notion/Q1 2026 Review]]", "[[RAW/notion/Notion/Commonplace Book/Building Integrity.md]]", "[[RAW/notion/Notion/Commonplace Book/Understanding values Schwartz theory of basic values.md]]"]
 last_updated: 2026-04-12
 ---
 

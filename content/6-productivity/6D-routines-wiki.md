@@ -1,8 +1,8 @@
 ---
 title: Routines and Systems
 tags: [personal/routines, personal/productivity]
-related: [[adhd-system]], [[health-and-body]], [[mindset-and-mental-models]], [[goals-and-vision]], [[Schema/index]]
-sources: [[RAW/apple-notes/LIFE ADMIN, ROUTINES & DAILY SYSTEMS]], [[RAW/apple-notes/GTD]], [[RAW/apple-notes/Weekly Review]], [[RAW/apple-notes/morning routine]], [[RAW/success-productivity/Performance/Productivity Systems]], [[RAW/notion/Notion/Outlooks and Digests]], [[RAW/reminders/Morning_Routine.md]]
+related: ["[[adhd-system]]", "[[health-and-body]]", "[[mindset-and-mental-models]]", "[[goals-and-vision]]", "[[Schema/index]]"]
+sources: ["[[RAW/apple-notes/LIFE ADMIN, ROUTINES & DAILY SYSTEMS]]", "[[RAW/apple-notes/GTD]]", "[[RAW/apple-notes/Weekly Review]]", "[[RAW/apple-notes/morning routine]]", "[[RAW/success-productivity/Performance/Productivity Systems]]", "[[RAW/notion/Notion/Outlooks and Digests]]", "[[RAW/reminders/Morning_Routine.md]]"]
 last_updated: 2026-04-12
 ---
 
