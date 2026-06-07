@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Garden \U0001F33F"
+title: "Welcome to the Garden 🌿"
 ---
 
 Hey — I'm **Mait**. Fellow at Columbia CGEP & CKI. Building at the intersection of climate finance, capital markets, and global development.
