@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Garden View · Mait's Garden 🌿</title>
+  <link rel="icon" href="/static/icon.png" />
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+    :root {
+      --grass: #4a8c5c;
+      --grass-dark: #3d7a4e;
+      --dirt: #8b6d47;
+      --dirt-light: #a68b5b;
+      --wood: #6b4226;
+      --wood-light: #8b5e3c;
+      --sky: #87ceeb;
+      --path: #c4a96a;
+      --path-dark: #b09858;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: var(--grass);
+      font-family: 'Source Sans Pro', sans-serif;
+      overflow-x: hidden;
+      min-height: 100vh;
+      image-rendering: pixelated;
+    }
+
+    /* Header */
+    .garden-header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      position: relative;
+    }
+    .garden-title {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 1.4rem;
+      color: #fff;
+      text-shadow: 2px 2px 0 #2d5a3a, -1px -1px 0 #2d5a3a;
+      margin-bottom: 0.5rem;
+    }
+    .garden-subtitle {
+      font-size: 0.9rem;
+      color: #c8e6c9;
+      font-style: italic;
+    }
+    .view-toggle {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      z-index: 100;
+      background: var(--wood);
+      color: #f5e6d3;
+      border: 3px solid var(--wood-light);
+      padding: 0.5rem 1rem;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.55rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.1s;
+    }
+    .view-toggle:hover {
+      transform: scale(1.05);
+      background: var(--wood-light);
+    }
+
+    /* Garden grid */
+    .garden-world {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* Plot / Section */
+    .plot {
+      background: var(--dirt);
+      border: 4px solid var(--dirt-light);
+      border-radius: 8px;
+      padding: 0.8rem;
+      position: relative;
+      min-height: 160px;
+      transition: transform 0.15s;
+    }
+    .plot:hover {
+      transform: translateY(-2px);
+    }
+
+    /* Wooden sign */
+    .plot-sign {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.5rem;
+      color: #f5e6d3;
+      background: var(--wood);
+      border: 2px solid var(--wood-light);
+      padding: 0.35rem 0.6rem;
+      display: inline-block;
+      margin-bottom: 0.6rem;
+      position: relative;
+      line-height: 1.4;
+    }
+    .plot-sign::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 8px;
+      width: 4px;
+      height: 8px;
+      background: var(--wood);
+    }
+    .plot-count {
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.4rem;
+      color: var(--dirt-light);
+      margin-left: 0.4rem;
+    }
+
+    /* Flower bed */
+    .flower-bed {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding-top: 0.3rem;
+    }
+
+    /* Individual flower/plant */
+    .flower {
+      width: 28px;
+      height: 32px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      cursor: pointer;
+      position: relative;
+      transition: transform 0.15s;
+      text-decoration: none;
+    }
+    .flower:hover {
+      transform: scale(1.3) translateY(-4px);
+      z-index: 10;
+    }
+    .flower:hover .flower-tooltip {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-4px);
+      pointer-events: auto;
+    }
+
+    /* Flower sprites using emoji */
+    .flower-sprite {
+      font-size: 18px;
+      line-height: 1;
+      filter: drop-shadow(1px 1px 0 rgba(0,0,0,0.2));
+    }
+    .flower-stem {
+      width: 2px;
+      height: 6px;
+      background: #4a7c3f;
+      border-radius: 1px;
+    }
+
+    /* Tooltip */
+    .flower-tooltip {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%) translateY(0);
+      background: rgba(0, 0, 0, 0.85);
+      color: #fff;
+      font-size: 0.7rem;
+      padding: 0.3rem 0.5rem;
+      border-radius: 4px;
+      white-space: nowrap;
+      max-width: 200px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.15s;
+      z-index: 20;
+    }
+
+    /* Section-specific flower types */
+    .section-identity .flower-sprite::before { content: '🌳'; }
+    .section-mait-isms .flower-sprite::before { content: '🌻'; }
+    .section-career .flower-sprite::before { content: '🌹'; }
+    .section-mind .flower-sprite::before { content: '🍄'; }
+    .section-health .flower-sprite::before { content: '🌿'; }
+    .section-productivity .flower-sprite::before { content: '🌾'; }
+    .section-book-notes .flower-sprite::before { content: '🌺'; }
+    .section-climate-energy .flower-sprite::before { content: '🌍'; }
+    .section-finance .flower-sprite::before { content: '🌵'; }
+    .section-technology .flower-sprite::before { content: '🔮'; }
+    .section-creative .flower-sprite::before { content: '🌸'; }
+    .section-relationships .flower-sprite::before { content: '💐'; }
+    .section-spirituality .flower-sprite::before { content: '🪷'; }
+    .section-root .flower-sprite::before { content: '🌱'; }
+
+    /* Decorative grass tufts */
+    .grass-row {
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 0.7rem;
+      color: #6aaa6a;
+      letter-spacing: 1rem;
+      user-select: none;
+    }
+
+    /* Path between plots */
+    .garden-path {
+      height: 12px;
+      background: repeating-linear-gradient(
+        90deg,
+        var(--path) 0px,
+        var(--path) 8px,
+        var(--path-dark) 8px,
+        var(--path-dark) 16px
+      );
+      border-radius: 4px;
+      margin: 0.5rem 2rem;
+      grid-column: 1 / -1;
+    }
+
+    /* Footer */
+    .garden-footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: #a0d0a0;
+      font-size: 0.8rem;
+    }
+    .garden-footer a {
+      color: #c8e6c9;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+    }
+
+    /* Loading */
+    .loading {
+      text-align: center;
+      padding: 4rem;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 0.7rem;
+      color: #c8e6c9;
+    }
+    .loading::after {
+      content: '...';
+      animation: dots 1.5s infinite;
+    }
+    @keyframes dots {
+      0%, 20% { content: '.'; }
+      40% { content: '..'; }
+      60%, 100% { content: '...'; }
+    }
+
+    /* Ambient decorations */
+    .ambient {
+      position: fixed;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.3;
+      font-size: 1.2rem;
+      animation: float 6s ease-in-out infinite;
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .garden-title { font-size: 0.9rem; }
+      .garden-world { grid-template-columns: 1fr; padding: 0.5rem; }
+      .plot { min-height: 120px; }
+      .flower { width: 24px; height: 28px; }
+      .flower-sprite { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="/" class="view-toggle">📖 List View</a>
+
+  <div class="garden-header">
+    <h1 class="garden-title">Mait's Garden 🌿</h1>
+    <p class="garden-subtitle">~ click a flower to read ~</p>
+  </div>
+
+  <div id="garden" class="garden-world">
+    <div class="loading">Growing the garden</div>
+  </div>
+
+  <div class="garden-footer">
+    <p>🌿 <a href="/about">About</a> · <a href="/links">Links</a> · <a href="/">Home</a> 🌿</p>
+  </div>
+
+<script>
+const SECTION_META = {
+  '1-identity':      { label: 'Identity',         class: 'section-identity' },
+  '2-mait-isms':     { label: 'Mait-isms',        class: 'section-mait-isms' },
+  '3-career':        { label: 'Career',            class: 'section-career' },
+  '4-mind':          { label: 'Mind',              class: 'section-mind' },
+  '5-health':        { label: 'Health',            class: 'section-health' },
+  '6-productivity':  { label: 'Productivity',      class: 'section-productivity' },
+  '7-book-notes':    { label: 'Book Notes',        class: 'section-book-notes' },
+  '8-climate-energy':{ label: 'Climate & Energy',  class: 'section-climate-energy' },
+  '9-finance':       { label: 'Finance',           class: 'section-finance' },
+  '10-technology':   { label: 'Technology',         class: 'section-technology' },
+  '11-creative':     { label: 'Creative',           class: 'section-creative' },
+  '12-relationships':{ label: 'Relationships',      class: 'section-relationships' },
+  '13-spirituality': { label: 'Spirituality',       class: 'section-spirituality' },
+};
+
+async function loadGarden() {
+  const res = await fetch('/static/contentIndex.json');
+  const data = await res.json();
+
+  // Group notes by top-level folder
+  const sections = {};
+  for (const [slug, info] of Object.entries(data)) {
+    const parts = slug.split('/');
+    const folder = parts.length > 1 ? parts[0] : 'root';
+    if (folder === 'tags') continue; // skip tag pages
+
+    if (!sections[folder]) sections[folder] = [];
+    sections[folder].push({
+      slug,
+      title: info.title || slug.split('/').pop(),
+      date: info.date,
+    });
+  }
+
+  // Sort notes within each section by title
+  for (const s of Object.values(sections)) {
+    s.sort((a, b) => a.title.localeCompare(b.title));
+  }
+
+  // Render
+  const garden = document.getElementById('garden');
+  garden.innerHTML = '';
+
+  // Render known sections in order
+  const orderedKeys = Object.keys(SECTION_META);
+  for (const key of orderedKeys) {
+    const notes = sections[key];
+    if (!notes || notes.length === 0) continue;
+    const meta = SECTION_META[key];
+    garden.appendChild(createPlot(meta.label, meta.class, notes));
+  }
+
+  // Render any remaining sections (root, etc.)
+  for (const [key, notes] of Object.entries(sections)) {
+    if (SECTION_META[key] || key === 'tags') continue;
+    garden.appendChild(createPlot(key, 'section-root', notes));
+  }
+}
+
+function createPlot(label, sectionClass, notes) {
+  const plot = document.createElement('div');
+  plot.className = `plot ${sectionClass}`;
+
+  const sign = document.createElement('div');
+  sign.className = 'plot-sign';
+  sign.textContent = label;
+
+  const count = document.createElement('span');
+  count.className = 'plot-count';
+  count.textContent = `·${notes.length}`;
+  sign.appendChild(count);
+
+  const bed = document.createElement('div');
+  bed.className = 'flower-bed';
+
+  for (const note of notes) {
+    const flower = document.createElement('a');
+    flower.className = 'flower';
+    flower.href = `/${note.slug}`;
+
+    const sprite = document.createElement('div');
+    sprite.className = 'flower-sprite';
+
+    const stem = document.createElement('div');
+    stem.className = 'flower-stem';
+
+    const tooltip = document.createElement('div');
+    tooltip.className = 'flower-tooltip';
+    tooltip.textContent = note.title;
+
+    flower.appendChild(tooltip);
+    flower.appendChild(sprite);
+    flower.appendChild(stem);
+    bed.appendChild(flower);
+  }
+
+  plot.appendChild(sign);
+  plot.appendChild(bed);
+  return plot;
+}
+
+loadGarden();
+</script>
+
+</body>
+</html>
