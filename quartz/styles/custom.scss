@@ -1,3 +1,100 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// ── Typography rhythm ──
+article {
+  h2 {
+    margin-top: 2.4rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+  h3 {
+    margin-top: 1.8rem;
+  }
+  p {
+    line-height: 1.75;
+  }
+}
+
+// ── Tables ──
+article table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--lightgray);
+
+  th {
+    background: color-mix(in srgb, var(--tertiary) 12%, var(--light));
+    font-weight: 600;
+    text-align: left;
+  }
+  td, th {
+    padding: 0.6rem 1rem;
+    border-bottom: 1px solid var(--lightgray);
+  }
+  tr:last-child td {
+    border-bottom: none;
+  }
+  tr:hover td {
+    background: color-mix(in srgb, var(--tertiary) 6%, var(--light));
+  }
+}
+
+// ── Links ──
+article a.internal {
+  text-decoration-color: color-mix(in srgb, var(--tertiary) 50%, transparent);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.2s;
+  &:hover {
+    text-decoration-color: var(--tertiary);
+  }
+}
+article a.external {
+  text-decoration-style: dashed;
+  text-decoration-color: color-mix(in srgb, var(--gray) 60%, transparent);
+  text-underline-offset: 3px;
+  &:hover {
+    text-decoration-style: solid;
+    text-decoration-color: var(--secondary);
+  }
+}
+
+// ── Blockquotes ──
+article blockquote {
+  border-left: 3px solid var(--tertiary);
+  padding-left: 1.2rem;
+  color: var(--darkgray);
+  font-style: italic;
+}
+
+// ── Code blocks ──
+article pre {
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+}
+
+// ── Page transition ──
+.center {
+  animation: fadeIn 0.3s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+// ── Explorer polish ──
+.explorer-ul .nav-file-title {
+  border-radius: 4px;
+  padding: 0.15rem 0.4rem;
+  transition: background 0.15s;
+  &:hover {
+    background: color-mix(in srgb, var(--tertiary) 10%, var(--light));
+  }
+}
+
+// ── Article title ──
+h1.article-title {
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.2rem;
+}

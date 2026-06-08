@@ -197,6 +197,8 @@ plugins:
     enabled: true
     options:
       links:
+        About: /about
+        Links: /links
         LinkedIn: https://linkedin.com/in/maitreyi-menon
         Email: mailto:hello@maitreyi.garden
   - source: github:quartz-community/recent-notes

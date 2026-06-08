@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npx quartz build",
+  "buildCommand": "npx quartz build && cp public/static/splash.html public/index.html",
   "outputDirectory": "public",
   "installCommand": "npm install && rm -rf .quartz/plugins && npx quartz plugin install --from-config",
   "framework": null,

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mait's Digital Garden</title>
+  <meta name="description" content="An interactive pixel-art garden of writing, projects, books and notes by Maitreyi Menon." />
+  <meta property="og:title" content="Mait's Digital Garden" />
+  <meta property="og:description" content="An interactive pixel-art garden of writing, projects, books and notes." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://maitsgarden.vercel.app" />
+  <link rel="icon" href="/static/icon.png" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { height: 100%; overflow: hidden; background: #1a1a2e; }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+    .enter-btn {
+      position: fixed;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: #84a59d;
+      color: #fff;
+      font-family: 'Source Sans Pro', -apple-system, sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+      transition: all 0.25s ease;
+      letter-spacing: 0.02em;
+    }
+    .enter-btn:hover {
+      background: #6b8f86;
+      transform: translateX(-50%) translateY(-2px);
+      box-shadow: 0 6px 28px rgba(0,0,0,0.4);
+    }
+    .enter-btn:active {
+      transform: translateX(-50%) translateY(0);
+    }
+    @media (max-width: 600px) {
+      .enter-btn {
+        bottom: 1.5rem;
+        font-size: 1rem;
+        padding: 0.7rem 1.6rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <iframe
+    src="https://pixel-garden-haven.lovable.app"
+    title="Mait's Pixel Garden"
+    loading="eager"
+    allow="autoplay"
+  ></iframe>
+  <a href="/home" class="enter-btn">
+    Enter the Garden &rarr;
+  </a>
+</body>
+</html>
