@@ -12,7 +12,6 @@ This is my digital garden — thinking made public. These are processed notes, n
 
 | Zone | What you'll find |
 |------|-----------------|
-| [[1-identity/\|Identity]] | Values, philosophy, how I operate |
 | [[2-mait-isms/\|Mait-isms]] | One-liners I actually believe |
 | [[3-career/\|Career]] | Job search, outreach, frameworks |
 | [[4-mind/\|Mind]] | Mental models, ADHD, thinking tools |
@@ -23,7 +22,6 @@ This is my digital garden — thinking made public. These are processed notes, n
 | [[9-finance/\|Finance]] | Capital markets, impact investing |
 | [[10-technology/\|Technology]] | AI, tools, what tech actually changes |
 | [[11-creative/\|Creative]] | Projects, ideas, things I want to make |
-| [[12-relationships/\|Relationships]] | People, connection, how I show up |
 | [[13-spirituality/\|Spirituality]] | Meaning, practice, the bigger picture |
 
 ## Now (Q2 2026)

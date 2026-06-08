@@ -13,6 +13,8 @@ configuration:
     - templates
     - .obsidian
     - "*.canvas"
+    - "1-identity"
+    - "12-relationships"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
