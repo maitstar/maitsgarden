@@ -1,2 +1,0 @@
-- Inverse Gaussian distribution
-- - "autoethnophikia, fetishiticallly obsessed with own mythology"
