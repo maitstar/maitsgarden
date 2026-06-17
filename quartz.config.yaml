@@ -13,8 +13,23 @@ configuration:
     - templates
     - .obsidian
     - "*.canvas"
-    - "1-identity"
+    - "2-mait-isms"
+    - "3-career"
+    - "5-health"
+    - "11-creative"
     - "12-relationships"
+    - "4-mind/4A-adhd"
+    - "4-mind/4C-reflections*"
+    - "4-mind/4D-psychology"
+    - "4-mind/enneagram*"
+    - "4-mind/journaling*"
+    - "4-mind/life-purpose*"
+    - "4-mind/4B-debater*"
+    - "4-mind/4B-procrastination*"
+    - "6-productivity/6D-*"
+    - "13-spirituality/astro*"
+    - "13-spirituality/tarot*"
+    - "13-spirituality/witchy*"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true

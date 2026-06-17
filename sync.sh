@@ -1,18 +1,21 @@
 #!/bin/bash
-# sync.sh — Obsidian Zettels → GitHub → Vercel auto-deploys
+# sync.sh — digital-garden (curated public notes) → GitHub → Vercel auto-deploys
+# Source is digital-garden/ in Obsidian vault, NOT the full 03- Zettels/ folder.
+# To publish a note, copy it into the digital-garden/ folder in Obsidian first.
 
-VAULT="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/03- Zettels"
+VAULT="$HOME/Library/Mobile Documents/iCloud~md~obsidian/Documents/Second Brain/digital-garden"
 QUARTZ_DIR="$(cd "$(dirname "$0")" && pwd)"
 CONTENT="$QUARTZ_DIR/content"
 LOG="$QUARTZ_DIR/.sync.log"
 
-echo "[$(date '+%H:%M:%S')] Syncing..." | tee -a "$LOG"
+echo "[$(date '+%H:%M:%S')] Syncing from digital-garden/..." | tee -a "$LOG"
 
-# 1. Pull Obsidian Zettels into content/
+# 1. Pull curated public notes into content/
 rsync -a --delete \
   --exclude='.obsidian' \
   --exclude='.DS_Store' \
   --exclude='*.canvas' \
+  --exclude='README.md' \
   "$VAULT/" "$CONTENT/" \
   --filter='protect index.md' 2>>"$LOG"
 
