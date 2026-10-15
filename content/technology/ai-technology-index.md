@@ -15,7 +15,7 @@ Drop notes from papers, articles, experiments here. Keep [[WIKI/personal/lists/t
 - AI auditing: https://x.com/coreyganim/status/2041983671855649034
 - LLMs responding to stress/cortisol — interesting research direction
 - Microsoft Markdown tooling: https://x.com/_vmlops/status/2041869776927261024
-- AI energy management (BCN Tracker — ADHD application)
+- AI energy management (BCN Tracker)
 - Claude Code infrastructure: https://x.com/ernestosoftware/status/2041899972912673022
 
 ## Notes

@@ -21,7 +21,6 @@ growth: seedling
 
 **Documents Folder (The "Library"):** Your permanent records. Structure:
 - Career: Master Resumes, Columbia degree scans, work samples
-- Admin: Passport scans, tax info, medical records
 - Learning: Coursework, eBooks, development research
 
 **Desktop (The "Workbench"):** Only what you're actively working on right now. Once you hit "Send," move it to Documents and clear the Desktop. Use **Stacks** (right-click Desktop → Use Stacks) to auto-group active files.

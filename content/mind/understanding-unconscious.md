@@ -1,6 +1,6 @@
 ---
 title: Understanding the Unconscious
-tags: [mind, psychology, unconscious, self-knowledge, dreams, Jung, Vedic]
+tags: [mind, psychology, unconscious, self-knowledge, dreams, Jung]
 related: ["[[hope-detachment-gita]]", "[[life-purpose-framework]]"]
 sources: ["[[00- Raw/20260602-1201-understanding-unconscious.md]]"]
 last_updated: 2026-06-07
@@ -28,9 +28,5 @@ The unconscious communicates through patterns, not pronouncements. It doesn't se
 - **Free-writing / morning pages:** 3 pages, stream of consciousness, no editing, first thing on waking. After 2–3 weeks, themes emerge.
 - **Active imagination (Jung):** Sit with an image from a dream or strong emotion. Close your eyes and let it develop. Write what happens. Don't force it.
 - **Therapy:** The most efficient route, especially for entrenched patterns. A good therapist notices things in session you can't see yourself.
-
-## Vedic lens
-
-In Jyotisha, the 12th house (vyaya bhava) governs the unconscious, hidden enemies, and subconscious patterns. Planets placed there or aspecting it describe the nature of what remains below the surface. The Moon's placement shows emotional patterning.
 
 *See also: [[hope-detachment-gita]] | [[life-purpose-framework]]*

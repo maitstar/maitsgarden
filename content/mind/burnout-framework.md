@@ -1,7 +1,7 @@
 ---
 title: Burnout — Rider/Elephant & Related Frameworks
-tags: [psychology, burnout, motivation, adhd, self-knowledge]
-related: ["[[4C-reflections]]", "[[4A-adhd]]", "[[enneagram-mbti]]"]
+tags: [psychology, burnout, motivation, self-knowledge]
+related: ["[[4C-reflections]]", "[[enneagram-mbti]]"]
 sources: ["[[00- Raw/Burnout - Elephant Metaphor & Frameworks.md]]", "[[00- Raw/Self-Hatred as Narcissism.md]]"]
 last_updated: 2026-05-26
 growth: seedling
@@ -45,4 +45,4 @@ The deeper narcissism: you'd rather be a tragic hero than a nobody. You'd rather
 
 ---
 
-*See also: [[4C-reflections]] | [[enneagram-mbti]] | [[4A-adhd]]*
+*See also: [[4C-reflections]] | [[enneagram-mbti]]*

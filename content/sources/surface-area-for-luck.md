@@ -32,4 +32,4 @@ A list of 33 practices for increasing synchronicity and luck in life. Emphasizes
 - Synchronicity log — deliberate tracking of coincidences to amplify pattern recognition
 
 ## Relevance to Maitreyi
-Directly applicable to daily habits, creativity, and the productivity system. Synchronicity log is worth trying. "Do things the moment you think of them" maps to ADHD capture workflows.
+Directly applicable to daily habits, creativity, and the productivity system. Synchronicity log is worth trying. "Do things the moment you think of them" maps to capture workflows.

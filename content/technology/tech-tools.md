@@ -1,7 +1,7 @@
 ---
 title: Tech Stack & Tools
 tags: [tech, tools, apps, ai, productivity]
-related: ["[[routines-and-systems]]", "[[adhd-system]]", "[[open-loops]]"]
+related: ["[[routines-and-systems]]", "[[open-loops]]"]
 sources: ["[[RAW/reminders/Tech.md]]", "[[RAW/reminders/Capture_Notes.md]]", "[[RAW/notion/Notion/Mait's Stack]]"]
 last_updated: 2026-04-12
 growth: seedling
@@ -26,7 +26,7 @@ growth: seedling
 - Sansama — got for free ✓
 - Workout.cool
 - Weekly Audit template: https://scorpiorisingmedia.notion.site/Weekly-Audit-2350b91b494c80f8a9ebcd02076e5982
-- BCN Tracker: AI Energy Management Tool for ADHD
+- BCN Tracker: AI Energy Management Tool
 
 ## Interesting / Try
 
@@ -38,7 +38,6 @@ growth: seedling
 ## Focus & Deep Work
 
 - EDM instrumental study playlist
-- ADHD playlists by Jason Lewis — Mind Amend (YouTube): https://www.youtube.com/watch?v=wELOA2U7FPQ
 - Oscar Patel on YouTube — follow his protocols
 - Phone on greyscale
 - No phone until 1pm (goal)

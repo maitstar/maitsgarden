@@ -1,7 +1,7 @@
 ---
 title: Mental Models
 tags: [mental-models, thinking, philosophy, decision-making, frameworks]
-related: ["[[essentialism]]", "[[adhd-voltage-model]]", "[[1G-philosophy]]"]
+related: ["[[essentialism]]", "[[1G-philosophy]]"]
 sources: ["[[00- Raw/Mental Models/intentional.md]]", "[[00- Raw/Mental Models/BELIEF SYSTEMS, PERSONAL PHILOSOPHY & GROWTH.md]]", "[[00- Raw/Mental Models/Mental Models.md]]"]
 last_updated: 2026-05-24
 growth: seedling
@@ -84,4 +84,4 @@ Social networks succeed by creating unique status tokens that require proof of w
 
 ---
 
-*See also: [[essentialism]] | [[adhd-voltage-model]] | [[1G-philosophy]]*
+*See also: [[essentialism]] | [[1G-philosophy]]*

@@ -1,7 +1,7 @@
 ---
 title: Acedia — The Noonday Demon
 tags: [spirituality, acedia, desert-fathers, psychology, sloth, monasticism, evagrius]
-related: ["[[tulpas-thoughtforms]]", "[[witchy]]", "[[4B-mental-models]]"]
+related: ["[[4B-mental-models]]"]
 sources: ["[[00- Raw/2026-06-07]]", "[[00- Raw/2026-06-08]]"]
 last_updated: 2026-06-08
 growth: seedling
@@ -69,7 +69,7 @@ The demon's moves, systematically:
 
 ## Acedia and Modern Psychology
 
-The symptom cluster maps precisely onto what we now call: depression, burnout, executive dysfunction, restlessness / ADHD, doom-scrolling, and the specific boredom of people who are stuck somewhere they feel they shouldn't be.
+The symptom cluster maps precisely onto what we now call: depression, burnout, executive dysfunction, restlessness, doom-scrolling, and the specific boredom of people who are stuck somewhere they feel they shouldn't be.
 
 The monks understood this was not a character flaw but a *demonic attack* — meaning: an external force that operates through your weaknesses when you're at your most vulnerable (tired, hungry, frustrated, isolated). The framing matters: it externalizes the enemy, which makes it easier to fight without self-blame.
 
@@ -83,4 +83,3 @@ The monks understood this was not a character flaw but a *demonic attack* — me
 - [ ] Test the antidote: the next time you feel the urge to flee the desk/task/cell — stay. Do one unit of work first.
 - [ ] The tears antidote is real in secular form: grief, honest feeling, and release break the noonday deadlock
 
-*See also: [[tulpas-thoughtforms]] | [[witchy]]*

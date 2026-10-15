@@ -89,4 +89,4 @@ If it fails the minimum criteria → no. If it passes minimum but fails 2 of 3 e
 
 ---
 
-*See also: [[4B-mental-models]] | [[adhd-voltage-model]] | [[1A-values]]*
+*See also: [[4B-mental-models]] | [[1A-values]]*

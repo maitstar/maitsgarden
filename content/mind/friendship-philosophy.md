@@ -15,7 +15,7 @@ growth: seedling
 
 **Cicero, *De Amicitia*** — "One soul in two bodies." A friend is a second self (*alter idem*). Loyalty under pressure is the test.
 
-**Montaigne** — "Because it was him, because it was me." Friendship sharply distinguished from family bonds (obligatory), sexual love (feverish, unstable), professional alliances (transactional). Essay: *De la amitié*.
+**Montaigne** — "Because it was him, because it was me." Friendship sharply distinguished from family bonds (obligatory), professional alliances (transactional). Essay: *De la amitié*.
 
 **Kant** — Three types: need (mutual aid), taste (shared pleasures), moral friendship (fullest — trust innermost thoughts without fear of judgment). Needs perfect equality; power imbalance corrupts it.
 
@@ -35,4 +35,4 @@ growth: seedling
 
 ---
 
-*See also: [[dating-principles]] | [[4C-reflections]] | [[constitution]]*
+*See also: [[4C-reflections]] | [[constitution]]*
