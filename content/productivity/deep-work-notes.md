@@ -1,7 +1,7 @@
 ---
 title: Deep Work — Notes
 tags: [productivity, deep-work, focus, deliberate-practice, Cal-Newport]
-related: ["[[6A-essentialism]]", "[[4B-procrastination]]", "[[campaign-behaviors]]"]
+related: ["[[campaign-behaviors]]"]
 sources: ["[[00- Raw/Processed/Deep Work - Notes.md]]"]
 last_updated: 2026-06-19
 growth: seedling
@@ -24,4 +24,3 @@ growth: seedling
 
 — Cal Newport, *Deep Work: Rules for Focused Success in a Distracted World*
 
-*See also: [[6A-essentialism]] | [[4B-procrastination]]*

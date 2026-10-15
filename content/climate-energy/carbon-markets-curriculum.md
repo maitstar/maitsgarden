@@ -1,7 +1,7 @@
 ---
 title: Carbon Markets Curriculum
 tags: [climate, carbon-markets, VCM, compliance, methane, agriculture, India]
-related: ["[[ccus]]", "[[readme]]", "[[3A-principles]]"]
+related: ["[[ccus]]", "[[3A-principles]]"]
 sources: ["[[00- Raw/Energy/Comprehensive Carbon Markets Curriculum.md]]"]
 last_updated: 2026-05-24
 growth: seedling
@@ -101,4 +101,4 @@ Structured learning path in three phases: foundational knowledge → advanced me
 
 ---
 
-*See also: [[ccus]] | [[cleancrop]] | [[readme]] (climate-energy index)*
+*See also: [[ccus]] | [[cleancrop]]*

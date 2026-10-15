@@ -1,7 +1,7 @@
 ---
 title: Regret — Feeling vs. Anticipating
 tags: [mind, psychology, regret, decision-making, mental-models]
-related: ["[[4B-mental-models]]", "[[4B-procrastination]]", "[[4C-reflections]]"]
+related: ["[[4B-mental-models]]", "[[4C-reflections]]"]
 sources: ["[[00- Raw/2026-06-08]]"]
 last_updated: 2026-06-08
 growth: seedling

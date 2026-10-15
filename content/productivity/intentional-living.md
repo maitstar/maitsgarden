@@ -1,7 +1,7 @@
 ---
 title: Intentional Living — Notes
 tags: [productivity, values, intentionality, motivation, avoidance]
-related: ["[[gtd-notes]]", "[[values-audit]]", "[[campaign-behaviors]]", "[[6A-life-systems]]"]
+related: ["[[gtd-notes]]", "[[values-audit]]", "[[campaign-behaviors]]"]
 sources: ["[[00- Raw/Processed/Intentional Living - Notes.md]]"]
 last_updated: 2026-06-19
 growth: seedling

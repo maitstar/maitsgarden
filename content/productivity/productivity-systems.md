@@ -1,7 +1,7 @@
 ---
 title: Productivity Systems — Notes
-tags: [productivity, ADHD, energy, focus, dopamine, goals, networking]
-related: ["[[gtd-notes]]", "[[deep-work-notes]]", "[[intentional-living]]", "[[campaign-behaviors]]", "[[6A-life-systems]]"]
+tags: [productivity, energy, focus, dopamine, goals, networking]
+related: ["[[gtd-notes]]", "[[deep-work-notes]]", "[[intentional-living]]", "[[campaign-behaviors]]"]
 sources: ["[[00- Raw/Processed/PRODUCTIVITY & LIFE SYSTEMS.md]]"]
 last_updated: 2026-06-19
 growth: seedling
@@ -19,7 +19,7 @@ growth: seedling
 - Spend an hour on the weekend to list all important tasks for the week. Fill calendar with non-negotiables first, then map "free time" to specific tasks.
 - Before bed, finalize the next day — determine the 1–3 big tasks and when you'll do them. Pre-assigned schedule eliminates decision fatigue.
 
-**Keep environment clean:** Phone out of sight. Focus playlist (EDM instrumental / ADHD playlists). Water, coffee, lip balm in arm's reach.
+**Keep environment clean:** Phone out of sight. Focus playlist (EDM instrumental). Water, coffee, lip balm in arm's reach.
 
 **Tackle tasks in bite-sized amounts:** Two-minute rule — if you can do it in 2 minutes, do it immediately. Force yourself to do a task for 10 minutes only; usually you'll keep going.
 
@@ -63,27 +63,7 @@ Set Clear Goals → Identify High-Impact Actions → Prioritize Ruthlessly → P
 
 **Trade-Offs Principle:** There is always a task chosen and another not chosen. You cannot have it all. Ask: What do I want to go big on? What do I want to give up?
 
-## Energy Management (ADHD-Specific)
-
-**The ADHD tax is:**
-- Remembering to do the thing
-- Deciding when to do the thing
-- Starting the thing
-- Switching between things
-
-**Batch Similar Cognitive Loads:** All job apps together. All networking follow-ups together. All research/reading together. Don't interleave different types of thinking.
-
-**Protect Your Best Hours:** Peak brain time → high-stakes work. Everything else gets remaining capacity.
-
-**Automate Decisions:** Set default times for recurring activities. Create if-then rules. Pre-decide what to wear, eat, do in downtime.
-
-**Lower the Bar for Maintenance Tasks:** "Good enough" versions of everything non-critical. Template responses for networking. Minimum viable routines when energy is low.
-
-**The Trap:** Building elaborate systems to optimize energy... which themselves require energy to maintain.
-
 ## Dopamine Detox & Focus System
-
-**Addictions & Stimulation Audit:** Fantasies, Netflix, scrolling, dating apps, romance, orgasms. Do they actually make you happy? No.
 
 **Detox Strategy:**
 - If you stopped only one thing, what would improve focus most?

@@ -1,7 +1,7 @@
 ---
 title: Acedia — The Noonday Demon
 tags: [spirituality, acedia, desert-fathers, psychology, sloth, monasticism, evagrius]
-related: ["[[tulpas-thoughtforms]]", "[[witchy]]", "[[4B-procrastination]]", "[[4B-mental-models]]"]
+related: ["[[tulpas-thoughtforms]]", "[[witchy]]", "[[4B-mental-models]]"]
 sources: ["[[00- Raw/2026-06-07]]", "[[00- Raw/2026-06-08]]"]
 last_updated: 2026-06-08
 growth: seedling
@@ -83,4 +83,4 @@ The monks understood this was not a character flaw but a *demonic attack* — me
 - [ ] Test the antidote: the next time you feel the urge to flee the desk/task/cell — stay. Do one unit of work first.
 - [ ] The tears antidote is real in secular form: grief, honest feeling, and release break the noonday deadlock
 
-*See also: [[tulpas-thoughtforms]] | [[4B-procrastination]] | [[witchy]]*
+*See also: [[tulpas-thoughtforms]] | [[witchy]]*

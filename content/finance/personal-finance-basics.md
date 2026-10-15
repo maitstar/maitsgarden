@@ -1,7 +1,7 @@
 ---
 title: Personal Finance Basics
 tags: [finance, money, budgeting, investing, retirement, emergency-fund]
-related: ["[[taxes-us-opt-f1]]"]
+related: []
 sources: ["[[00- Raw/20260602-1207-how-to-manage-money.md]]"]
 last_updated: 2026-06-07
 growth: seedling
@@ -36,4 +36,3 @@ Once emergency fund is funded and retirement accounts are maxed, taxable brokera
 
 **Sequence:** Emergency fund → 401(k) match → Roth IRA → extra 401(k) → taxable brokerage
 
-*See also: [[taxes-us-opt-f1]]*

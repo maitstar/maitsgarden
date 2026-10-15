@@ -1,7 +1,7 @@
 ---
 title: Getting Things Done — Notes
 tags: [productivity, GTD, David-Allen, systems, planning]
-related: ["[[deep-work-notes]]", "[[6A-life-systems]]", "[[campaign-behaviors]]"]
+related: ["[[deep-work-notes]]", "[[campaign-behaviors]]"]
 sources: ["[[00- Raw/Processed/Getting Things Done - Notes.md]]"]
 last_updated: 2026-06-19
 growth: seedling
@@ -42,4 +42,4 @@ Open loops — thoughts that haven't been brought to closure — interrupt your 
 - **Horizon 4 — Long-term visions:** Three- to five-year timeframe; career aspirations, family, external factors
 - **Horizon 5 — Life purpose:** Why you exist. All previous horizons are influenced by your answer
 
-*See also: [[6A-life-systems]] | [[deep-work-notes]]*
+*See also: [[deep-work-notes]]*

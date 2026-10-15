@@ -1,7 +1,7 @@
 ---
 title: Mental Models
 tags: [mental-models, thinking, philosophy, decision-making, frameworks]
-related: ["[[4B-pre-mortem]]", "[[4B-tiny-experiments]]", "[[essentialism]]", "[[adhd-voltage-model]]", "[[1G-philosophy]]"]
+related: ["[[essentialism]]", "[[adhd-voltage-model]]", "[[1G-philosophy]]"]
 sources: ["[[00- Raw/Mental Models/intentional.md]]", "[[00- Raw/Mental Models/BELIEF SYSTEMS, PERSONAL PHILOSOPHY & GROWTH.md]]", "[[00- Raw/Mental Models/Mental Models.md]]"]
 last_updated: 2026-05-24
 growth: seedling
@@ -63,7 +63,7 @@ Track it:
 
 ## Pre-Mortem Framework
 
-See [[4B-pre-mortem]] for the full protocol. Core questions for each anticipated failure mode:
+Core questions for each anticipated failure mode:
 1. What specific behavior would I observe?
 2. What is the earliest warning sign?
 3. What day/week does this typically happen?
@@ -84,4 +84,4 @@ Social networks succeed by creating unique status tokens that require proof of w
 
 ---
 
-*See also: [[essentialism]] | [[4B-pre-mortem]] | [[adhd-voltage-model]] | [[1G-philosophy]] | [[4B-tiny-experiments]]*
+*See also: [[essentialism]] | [[adhd-voltage-model]] | [[1G-philosophy]]*

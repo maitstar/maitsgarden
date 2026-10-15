@@ -1,7 +1,7 @@
 ---
 title: Weekly Review — Values Behaviors Checklist
 tags: [productivity, values, weekly-review, self-assessment, habits]
-related: ["[[values-audit]]", "[[intentional-living]]", "[[campaign-behaviors]]", "[[6A-life-systems]]"]
+related: ["[[values-audit]]", "[[intentional-living]]", "[[campaign-behaviors]]"]
 sources: ["[[00- Raw/Processed/Weekly Review - Values Checklist.md]]"]
 last_updated: 2026-06-19
 growth: seedling
